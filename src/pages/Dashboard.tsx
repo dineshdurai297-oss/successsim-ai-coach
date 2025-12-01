@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Target, BookOpen, History, LogOut } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/components/ui/use-toast";
-import logo from "@/assets/successsim-logo.png";
+import logo from "@/assets/successpilot-logo.png";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -23,9 +23,9 @@ const Dashboard = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link to="/dashboard" className="flex items-center gap-3">
-              <img src={logo} alt="SuccessSim Logo" className="h-10 w-10" />
+              <img src={logo} alt="SuccessPilot Logo" className="h-10 w-10" />
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                SuccessSim
+                SuccessPilot
               </span>
             </Link>
             <Button onClick={handleLogout} variant="ghost">

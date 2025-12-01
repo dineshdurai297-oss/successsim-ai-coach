@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Target, Zap, Shield, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/successsim-logo.png";
+import logo from "@/assets/successpilot-logo.png";
 
 const About = () => {
   return (
@@ -10,9 +10,9 @@ const About = () => {
       <nav className="border-b border-border/50 backdrop-blur-sm bg-background/80">
         <div className="container mx-auto px-4 py-4">
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="SuccessSim Logo" className="h-10 w-10" />
+            <img src={logo} alt="SuccessPilot Logo" className="h-10 w-10" />
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              SuccessSim
+              SuccessPilot
             </span>
           </Link>
         </div>
@@ -29,7 +29,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              About SuccessSim
+              About SuccessPilot
             </h1>
             <p className="text-xl text-muted-foreground">
               Empowering candidates to ace their interviews with AI-powered practice
@@ -39,7 +39,7 @@ const About = () => {
           <Card className="p-8">
             <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="text-muted-foreground leading-relaxed">
-              SuccessSim was created to bridge the gap between job seekers and their dream careers. 
+              SuccessPilot was created to bridge the gap between job seekers and their dream careers. 
               We believe that interview preparation should be accessible, personalized, and effective. 
               By leveraging cutting-edge AI technology, we provide realistic interview simulations 
               that help candidates build confidence and improve their performance.
@@ -141,7 +141,7 @@ const About = () => {
           <Card className="p-8 text-center">
             <h2 className="text-2xl font-bold mb-4">Ready to Start?</h2>
             <p className="text-muted-foreground mb-6">
-              Join thousands of candidates who have improved their interview skills with SuccessSim
+              Join thousands of candidates who have improved their interview skills with SuccessPilot
             </p>
             <Link to="/auth">
               <Button size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-white">
