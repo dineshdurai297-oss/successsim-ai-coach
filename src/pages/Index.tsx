@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Target, BookOpen, Info, ArrowRight } from "lucide-react";
-import logo from "@/assets/successpilot-logo.png";
+import logo from "@/assets/successsim-logo.png";
 
 const Index = () => {
   return (
@@ -12,9 +12,9 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="SuccessPilot Logo" className="h-10 w-10" />
+              <img src={logo} alt="SuccessSim Logo" className="h-10 w-10" />
               <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                SuccessPilot
+                SuccessSim
               </span>
             </div>
             <div className="flex items-center gap-4">

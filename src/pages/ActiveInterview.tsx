@@ -7,7 +7,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/components/ui/use-toast";
 import { Loader2, CheckCircle, XCircle, ArrowLeft } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import logo from "@/assets/successpilot-logo.png";
+import logo from "@/assets/successsim-logo.png";
 
 interface QuestionData {
   question: string;
@@ -175,9 +175,9 @@ const ActiveInterview = () => {
       <nav className="border-b border-border/50 backdrop-blur-sm bg-background/80">
         <div className="container mx-auto px-4 py-4">
           <Link to="/dashboard" className="flex items-center gap-3">
-            <img src={logo} alt="SuccessPilot Logo" className="h-10 w-10" />
+            <img src={logo} alt="SuccessSim Logo" className="h-10 w-10" />
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              SuccessPilot
+              SuccessSim
             </span>
           </Link>
         </div>
